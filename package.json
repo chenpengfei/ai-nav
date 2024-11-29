@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "live-server --port=8080 --open=public/index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
