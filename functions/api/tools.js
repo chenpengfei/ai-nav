@@ -16,10 +16,38 @@ export async function onRequest(context) {
         ],
         "AI 开发": [
             {
-                name: "GitHub Copilot",
-                description: "GitHub 和 OpenAI 合作开发的 AI 编程助手",
-                icon: "https://github.com/github.png",
-                url: "https://github.com/features/copilot"
+                name: "Semantic Kernel",
+                description: "微软开发的 AI 编程框架，支持多种语言和 AI 模型集成",
+                icon: "https://learn.microsoft.com/favicon.ico",
+                url: "https://learn.microsoft.com/semantic-kernel"
+            }
+        ],
+        "AI 绘画": [
+            {
+                name: "Midjourney",
+                description: "AI 艺术和图像生成",
+                icon: "https://www.midjourney.com/favicon.ico",
+                url: "https://www.midjourney.com"
+            },
+            {
+                name: "Stable Diffusion",
+                description: "开源的 AI 图像生成模型",
+                icon: "https://stability.ai/favicon.ico",
+                url: "https://stability.ai"
+            }
+        ],
+        "AI 办公": [
+            {
+                name: "Notion AI",
+                description: "集成 AI 功能的笔记和协作工具",
+                icon: "https://www.notion.so/favicon.ico",
+                url: "https://www.notion.so"
+            },
+            {
+                name: "Copy.ai",
+                description: "AI 文案写作助手",
+                icon: "https://www.copy.ai/favicon.ico",
+                url: "https://www.copy.ai"
             }
         ]
     };
