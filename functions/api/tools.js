@@ -12,6 +12,18 @@ export async function onRequest(context) {
                 description: "Anthropic 开发的 AI 助手",
                 icon: "https://claude.ai/favicon.ico",
                 url: "https://claude.ai"
+            },
+            {
+                name: "GenSpark",
+                description: "基于 GPT-4 的智能助手",
+                icon: "https://www.genspark.ai/favicon.ico",
+                url: "https://www.genspark.ai"
+            },
+            {
+                name: "Perplexity",
+                description: "基于 AI 的智能搜索引擎",
+                icon: "https://www.perplexity.ai/favicon.ico",
+                url: "https://www.perplexity.ai"
             }
         ],
         "AI 开发": [
@@ -48,6 +60,14 @@ export async function onRequest(context) {
                 description: "AI 文案写作助手",
                 icon: "https://www.copy.ai/favicon.ico",
                 url: "https://www.copy.ai"
+            }
+        ],
+        "AI 学术": [
+            {
+                name: "arXiv",
+                description: "康奈尔大学运营的开放获取学术论文预印本平台",
+                icon: "https://arxiv.org/favicon.ico",
+                url: "https://arxiv.org"
             }
         ]
     };
