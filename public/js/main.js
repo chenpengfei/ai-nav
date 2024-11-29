@@ -28,7 +28,7 @@ async function renderTools(tools = null) {
                 ${items.map(tool => `
                     <a href="${tool.url}" class="tool" target="_blank" rel="noopener noreferrer">
                         <img src="${tool.icon}" alt="${tool.name}" 
-                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 fill=%22%23ddd%22/></svg>'">
+                             onerror="this.src='images/favicon.ico'">
                         <div class="tool-info">
                             <h3>${tool.name}</h3>
                             <p>${tool.description}</p>
