@@ -1,5 +1,13 @@
 export async function onRequest(context) {
     const aiTools = {
+        "AI 进展": [
+            {
+                name: "Ollama Blog",  
+                description: "Ollama 的官方博客，提供最新的 AI 资讯和更新",
+                icon: "https://ollama.com/favicon.ico",  
+                url: "https://ollama.com/blog"  
+            }
+        ],
         "AI 对话": [
             {
                 name: "ChatGPT",
