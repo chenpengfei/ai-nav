@@ -34,6 +34,34 @@ export async function onRequest(context) {
                 url: "https://www.perplexity.ai"
             }
         ],
+        "AI 办公": [
+            {
+                name: "豆包",
+                description: "豆包的官方网站，提供各种服务和信息",
+                icon: "https://www.doubao.com/favicon.ico",  // 请确认图标链接是否有效
+                url: "https://www.doubao.com/"
+            },
+            {
+                name: "Notion AI",
+                description: "集成 AI 功能的笔记和协作工具",
+                icon: "https://www.notion.so/favicon.ico",
+                url: "https://www.notion.so"
+            },
+            {
+                name: "Copy.ai",
+                description: "AI 文案写作助手",
+                icon: "https://www.copy.ai/favicon.ico",
+                url: "https://www.copy.ai"
+            }
+        ],
+        "AI 学术": [
+            {
+                name: "arXiv",
+                description: "康奈尔大学运营的开放获取学术论文预印本平台",
+                icon: "https://arxiv.org/favicon.ico",
+                url: "https://arxiv.org"
+            }
+        ],
         "AI 开发": [
             {
                 name: "Semantic Kernel",
@@ -56,28 +84,6 @@ export async function onRequest(context) {
                 url: "https://stability.ai"
             }
         ],
-        "AI 办公": [
-            {
-                name: "Notion AI",
-                description: "集成 AI 功能的笔记和协作工具",
-                icon: "https://www.notion.so/favicon.ico",
-                url: "https://www.notion.so"
-            },
-            {
-                name: "Copy.ai",
-                description: "AI 文案写作助手",
-                icon: "https://www.copy.ai/favicon.ico",
-                url: "https://www.copy.ai"
-            }
-        ],
-        "AI 学术": [
-            {
-                name: "arXiv",
-                description: "康奈尔大学运营的开放获取学术论文预印本平台",
-                icon: "https://arxiv.org/favicon.ico",
-                url: "https://arxiv.org"
-            }
-        ]
     };
 
     return new Response(JSON.stringify(aiTools), {
