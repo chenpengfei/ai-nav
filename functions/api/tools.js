@@ -42,6 +42,12 @@ export async function onRequest(context) {
                 url: "https://www.doubao.com/"
             },
             {
+                name: "NotebookLM",
+                description: "Google 开发的 AI 笔记工具，支持智能笔记和文档管理",
+                icon: "https://notebooklm.google/favicon.ico",  // 请确认图标链接是否有效
+                url: "https://notebooklm.google/"
+            },
+            {
                 name: "Notion AI",
                 description: "集成 AI 功能的笔记和协作工具",
                 icon: "https://www.notion.so/favicon.ico",
